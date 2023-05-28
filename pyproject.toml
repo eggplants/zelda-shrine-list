@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "zelda_shrine_list"
+version = "0.1.0"
+description = ""
+authors = ["eggplants <w10776e8w@yahoo.co.jp>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "zelda_shrine_list"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^6.5.4"
+pandas = "^2.0.1"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
